@@ -1,0 +1,102 @@
+{
+  "bounds": [
+    -180,
+    -85.0511,
+    180,
+    85.0511
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "minzoom": 2,
+  "maxzoom": 7,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      },
+      "extent": [
+        -179.99978348919964,
+        -85.051,
+        180,
+        83.63381093402977
+      ],
+      "class": "",
+      "srs-name": "900913",
+      "advanced": {}
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -180,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "bathymetry",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-bathymetry.zip",
+        "type": "shape"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bathymetry"
+    },
+    {
+      "geometry": "point",
+      "id": "volcans",
+      "class": "",
+      "Datasource": {
+        "file": "http://svt.tice.ac-orleans-tours.fr/php5/SIG/dossiers/sig_local/data/volcans/volcans.zip",
+        "type": "shape"
+      },
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "name": "volcans",
+      "extent": [
+        -179.97,
+        -78.25,
+        179.58,
+        85.051
+      ],
+      "advanced": {}
+    },
+    {
+      "geometry": "linestring",
+      "id": "plaques",
+      "class": "",
+      "Datasource": {
+        "file": "http://tiles.kupaia.fr/IMG/zip/plat_lin.zip",
+        "type": "shape"
+      },
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "name": "plaques",
+      "extent": [
+        -180,
+        -66.31498,
+        180,
+        85.051
+      ],
+      "advanced": {}
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "earthquake",
+  "description": "",
+  "legend": "",
+  "attribution": ""
+}
