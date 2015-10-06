@@ -2,6 +2,8 @@
 
 A simple demo map for Kosmtik.
 
+Demo : http://tiles.kupaia.fr/article10.html
+
 ## Install
 
 This map has been built with [Kosmtik](https://github.com/kosmtik/kosmtik).
