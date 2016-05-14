@@ -98,5 +98,8 @@
   "name": "earthquake",
   "description": "",
   "legend": "",
-  "attribution": ""
+  "attribution": "",
+  "kosmtik": {
+     "plugins": [ "kosmtik-fetch-remote", "kosmtik-place-search" ]
+  }
 }
